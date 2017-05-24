@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" class="wide wow-animation">
+  <head>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<link href="https://unpkg.com/nanogallery2/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="https://unpkg.com/nanogallery2/dist/jquery.nanogallery2.min.js"></script>
+  </head>
+  <body>
+   <div id="nanoDecors"></div>
+			  	<script type='text/javascript'>
+	$(document).ready(function () {
+    jQuery("#nanoDecors").nanogallery2({
+        kind: 'flickr',
+        userID: '154684446@N07',
+        photoset:'72157681188574993',
+            
+        thumbnailWidth: 185,
+        thumbnailHeight: 150,
+        thumbnailLabel: {
+            displayDescription: false,
+            position: 'overImageOnBottom'
+        },
+        thumbnailHoverEffect:'borderLighter'
+        
+    });
+	});
+	</script>
+  </body>
+</html>
